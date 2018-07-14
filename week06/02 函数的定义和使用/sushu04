@@ -1,0 +1,28 @@
+#include <stdio.h>
+int isPrime(int m){
+	int i;
+	int ret =1; 
+	for(i=2; i<m; i++){
+		if(m%i == 0){
+			ret = 0;
+		}
+	}
+	return ret;
+}
+int main()
+{
+	int count = 0;
+	int i;
+	int sum = 0;
+	int a,b;
+	scanf("%d %d", &a, &b);
+	if(a ==1 ) a = 2;
+	for(i=2; i<b; i++){
+		if(isPrime(i)){
+			sum = sum +i;
+			count ++;
+		}
+	}
+	printf("%d %d\n", count, sum);
+	return 0;
+}
