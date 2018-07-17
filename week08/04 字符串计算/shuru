@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+	/*
+			字符串输入输出
+	 char string[8];
+	 scanf("%s", string);
+	 printf("%s", string);
+	 scanf读入一个单词（到空格、tab或回车为止）
+	 scanf是不安全的，因为不知道要读入的内容的长度 
+	*/
+	char word[8];
+	char word2[8];
+	scanf("%s", word);
+	scanf("%s", word2);
+	printf("%s##%s##\n", word, word2);
+	 
+	return 0;
+}
+ 
