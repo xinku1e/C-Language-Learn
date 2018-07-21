@@ -1,2 +1,2 @@
 # C-languang-learn
-Learn C languagefrom Mook
+Learn C language from Mook
